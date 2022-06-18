@@ -4,8 +4,7 @@ const getAttrs = (style) => {
     ':width': 'size',
     ':height': 'size',
     'viewBox': '0 0 24 24',
-    'aria-hidden': 'true',
-    'v-on': '$listeners'
+    'aria-hidden': 'true'
   }
   const fillAttrs = {
     ':fill': 'color'
@@ -34,7 +33,7 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
       props: {
         size: {
           type: Number,
-          default: 16
+          default: 24
         },
         color: {
           type: String,
