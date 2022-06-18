@@ -1,6 +1,6 @@
 {
   "name": "kalman-vue-icon",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Juuust Vue Icon, Automation workflow with Figma",
   "main": "bundle/index.common.js",
   "files": [
